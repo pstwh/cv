@@ -1,10 +1,15 @@
-import React from 'react'
+import React, { Component } from 'react'
 import Content from './content'
 import Skills from './skills'
 import Block from './block'
 
-export default props => (
-  <section id="about" class="s-about target-section">
+import Timeblock from './timeblock'
+
+export default class About extends Component {
+
+  render() {
+    return(
+      <section id="about" class="s-about target-section">
         <div class="row narrow section-intro has-bottom-sep">
           <Block col="full" textAlign="center">
               <h3>About</h3>
@@ -20,51 +25,26 @@ export default props => (
 
         <div class="row about-content about-content--buttons">
 
-            <div class="col-six tab-full left">
+            <Block col="six" tab="full" align="left">
                 <a href="#0" class="btn btn--primary full-width">Download My CV</a>
-            </div>
-            <div class="col-six tab-full right">
+            </Block>
+            <Block col="six" tab="full" align="right">
                 <a href="#0" class="btn full-width">Hire Me Now</a>
-            </div>
-
+            </Block>
         </div>
 
         <div class="row about-content about-content--timeline">
 
-            <div class="col-full text-center">
+            <Block col="full" textAlign="center">
                 <h3>Experience.</h3>
-            </div>
+            </Block>
 
-            <div class="col-six tab-full left">
-
+            <Block col="six" tab="full" align="left">
                 <div class="timeline">
-
-                    <div class="timeline__block">
-                        <div class="timeline__bullet"></div>
-                        <div class="timeline__header">
-                            <p class="timeline__timeframe">July 2015 - Present</p>
-                            <h3>Awesome Studio</h3>
-                            <h5>Lead Designer</h5>
-                        </div>
-                        <div class="timeline__desc">
-                            <p>Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi.</p>
-                        </div>
-                    </div>
-
-                    <div class="timeline__block">
-                        <div class="timeline__bullet"></div>
-                        <div class="timeline__header">
-                            <p class="timeline__timeframe">July 2014 - June 2015</p>
-                            <h3>Super Cool Agency</h3>
-                            <h5>Front-end Developer</h5>
-                        </div>
-                        <div class="timeline__desc">
-                            <p>Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi incididunt.</p>
-                        </div>
-                    </div>
-
+                    <Timeblock/>
+                    <Timeblock/>
                 </div>
-            </div>
+            </Block>
 
             <Block col="six" tab="full" align="right">
                 <div class="timeline">
@@ -95,8 +75,8 @@ export default props => (
 
                 </div>
             </Block>
-
-        </div>
-
-    </section>
-)
+          </div>
+        </section>
+    )
+  }
+}

@@ -1,4 +1,5 @@
 import React from 'react'
+import Skills from './skills'
 
 export default props => (
   <section id="about" class="s-about target-section">
@@ -23,36 +24,7 @@ export default props => (
                 </p>
             </div>
 
-            <div class="col-six tab-full right">
-                <h3>I've Got Some skills.</h3>
-
-                <ul class="skill-bars">
-                    <li>
-                    <div class="progress percent90"><span>90%</span></div>
-                    <strong>HTML5</strong>
-                    </li>
-                    <li>
-                    <div class="progress percent85"><span>85%</span></div>
-                    <strong>CSS3</strong>
-                    </li>
-                    <li>
-                    <div class="progress percent70"><span>70%</span></div>
-                    <strong>JQuery</strong>
-                    </li>
-                    <li>
-                    <div class="progress percent95"><span>95%</span></div>
-                    <strong>PHP</strong>
-                    </li>
-                    <li>
-                    <div class="progress percent75"><span>75%</span></div>
-                    <strong>Wordpress</strong>
-                    </li>
-                    <li>
-                    <div class="progress percent90"><span>90%</span></div>
-                    <strong>Angular JS</strong>
-                    </li>
-                </ul>
-            </div>
+            <Skills/>
 
         </div>
 

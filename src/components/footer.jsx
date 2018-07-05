@@ -39,8 +39,7 @@ export default props => (
 
             <div class="col-twelve">
                 <div class="copyright">
-                    <span>© Copyright Hola 2017</span>
-                    <span>Design by <a href="https://www.styleshout.com/">styleshout</a></span>
+                    <span>Based on <a href="https://www.styleshout.com/">Hola</a></span>
                 </div>
 
                 <div class="go-top">

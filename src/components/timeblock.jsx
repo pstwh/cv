@@ -9,7 +9,7 @@ export default props => (
           <h5>{props.work}</h5>
       </div>
       <div class="timeline__desc">
-          <p>{props.children}</p>
+        {props.children}
       </div>
   </div>
 )

@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import Block from './block'
 
 export default class Skills extends Component {
 
@@ -33,7 +34,7 @@ export default class Skills extends Component {
     ]
 
     return (
-      <div class="col-six tab-full right">
+      <Block col="six" tab="full" align="right">
           <h3>{title}</h3>
 
           <ul class="skill-bars">
@@ -44,7 +45,7 @@ export default class Skills extends Component {
               </li>
             ))}
           </ul>
-      </div>
+      </Block>
     )
   }
 }

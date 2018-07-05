@@ -1,16 +1,16 @@
 import React from 'react'
 import Content from './content'
 import Skills from './skills'
+import Block from './block'
 
 export default props => (
   <section id="about" class="s-about target-section">
-
         <div class="row narrow section-intro has-bottom-sep">
-            <div class="col-full text-center">
-                <h3>About</h3>
-                <h1>More About Me</h1>
-                <p class="lead">Lorem ipsum Dolor adipisicing nostrud et aute Excepteur amet commodo ea dolore irure esse Duis nulla sint fugiat cillum ullamco proident aliquip quis qui voluptate dolore veniam Ut laborum non est in officia.</p>
-            </div>
+          <Block col="full" textAlign="center">
+              <h3>About</h3>
+              <h1>More About Me</h1>
+              <p class="lead">Lorem ipsum Dolor adipisicing nostrud et aute Excepteur amet commodo ea dolore irure esse Duis nulla sint fugiat cillum ullamco proident aliquip quis qui voluptate dolore veniam Ut laborum non est in officia.</p>
+          </Block>
         </div>
 
         <div class="row about-content">
@@ -36,6 +36,7 @@ export default props => (
             </div>
 
             <div class="col-six tab-full left">
+
                 <div class="timeline">
 
                     <div class="timeline__block">
@@ -65,7 +66,7 @@ export default props => (
                 </div>
             </div>
 
-            <div class="col-six tab-full right">
+            <Block col="six" tab="full" align="right">
                 <div class="timeline">
 
                     <div class="timeline__block">
@@ -93,7 +94,7 @@ export default props => (
                     </div>
 
                 </div>
-            </div>
+            </Block>
 
         </div>
 

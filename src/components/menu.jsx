@@ -36,9 +36,11 @@ export default class Menu extends Component {
     return (
       <div class="s-header">
 
+          {/*
           <div class="header-logo">
               <a class="site-logo" href="index.html"><img src="../images/logo.png" alt="Homepage"/></a>
           </div>
+          {*/}
 
           <nav class="header-nav-wrap">
               <ul class="header-nav">

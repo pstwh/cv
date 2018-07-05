@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import Block from './block'
 
 export default class Content extends Component {
 
@@ -13,13 +14,10 @@ export default class Content extends Component {
       `
 
       return(
-        <div class="col-six tab-full left">
+        <Block col="six" tab="full" align="left">
             <h3>{title}</h3>
-
-            <p>
-              {content}
-            </p>
-        </div>
+            <p>{content}</p>
+        </Block>
       )
   }
 }

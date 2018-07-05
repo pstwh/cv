@@ -11,6 +11,7 @@ import Menu from './components/menu'
 import Perfil from './components/perfil'
 import Stats from './components/stats'
 import Works from './components/works'
+import Github from './components/github'
 
 class App extends Component {
   render() {
@@ -21,6 +22,8 @@ class App extends Component {
         <About/>
         <Header/>
         <Stats/>
+        <Contact/>
+        <Footer/>
       </div>
     );
   }

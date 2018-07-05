@@ -70,7 +70,7 @@ export default props => (
         <div class="row about-content about-content--timeline">
 
             <div class="col-full text-center">
-                <h3>My Work Experience.</h3>
+                <h3>Experience.</h3>
             </div>
 
             <div class="col-six tab-full left">

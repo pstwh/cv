@@ -8,9 +8,8 @@ export default class Perfil extends Component {
     let perfil = {
         title: 'Hello World',
         description: `
-        I am Paulo Alves.
-        I am a fullstack developer
-        artificial intelligence enthusiast.
+        Eu sou Paulo Alves.
+        Desenvolvedor e sempre buscando inovação.
         `
     }
 
@@ -34,16 +33,16 @@ export default class Perfil extends Component {
 
                     <div class="home-content__buttons">
                         <a href="#works" class="smoothscroll btn btn--stroke">
-                            Latest Projects
+                            Últimos Projetos
                         </a>
                         <a href="#about" class="smoothscroll btn btn--stroke">
-                            More About Me
+                            Sobre Mim
                         </a>
                     </div>
 
                     <div class="home-content__scroll">
                         <a href="#about" class="scroll-link smoothscroll">
-                            <span>Scroll Down</span>
+                            <span>Conheça-me</span>
                         </a>
                     </div>
 

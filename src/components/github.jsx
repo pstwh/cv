@@ -12,9 +12,8 @@ export default class Github extends Component {
 
     return (
       <section id="github" class="s-about target-section">
-        <div class="row narrow section-intro has-bottom-sep">
+        <div class="row narrow section-intro">
           <Block col="full">
-            <h2>GitHub</h2>
             <div class="github-calendar"></div>
           </Block>
         </div>

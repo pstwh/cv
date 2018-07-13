@@ -5,31 +5,51 @@ export default class Skills extends Component {
 
   render() {
 
-    let title = "I've Got Some skills."
-    let skills = [
+    const title = "Tecnologias que utilizo/estudo atualmente"
+    const skills = [
       {
-        name: "HTML5",
+        name: "Python",
         percentage: "90"
       },
       {
-        name: "CSS3",
+        name: "HTML5, CSS3, JS e Web clássico",
+        percentage: "90"
+      },
+      {
+        name: "PHP Nativo e Laravel",
+        percentage: "90"
+      },
+      {
+        name: "Datascience com Python",
         percentage: "85"
       },
       {
-        name: "JQuery",
+        name: "React e React Native",
+        percentage: "85"
+      },
+      {
+        name: "Tensorflow e Keras",
+        percentage: "80"
+      },
+      {
+        name: "Javacript ES6, Node e Derivados...",
+        percentage: "80"
+      },
+      {
+        name: "Golang",
         percentage: "70"
       },
       {
-        name: "PHP",
-        percentage: "95"
+        name: "Pytorch",
+        percentage: "70"
       },
       {
-        name: "Wordpress",
-        percentage: "75"
+        name: "Android Java/Kotlin",
+        percentage: "65"
       },
       {
-        name: "Angular JS",
-        percentage: "90"
+        name: "iOS com Swift",
+        percentage: "50"
       }
     ]
 

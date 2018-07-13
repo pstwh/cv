@@ -22,7 +22,7 @@ class App extends Component {
         <About/>
         <Header/>
         <Stats/>
-        <Contact/>
+        <Github user="pstwh"/>
         <Footer/>
       </div>
     );

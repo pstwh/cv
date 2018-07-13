@@ -12,25 +12,20 @@ export default class Menu extends Component {
         href: '#home',
       },
       {
-        content: 'About',
+        content: 'Sobre',
         title: 'about',
         href: '#about',
       },
       {
-        content: 'Works',
+        content: 'Histórico e Experiência',
+        title: 'about',
+        href: '#about',
+      },
+      {
+        content: 'Alguns Trabalhos',
         title: 'works',
         href: '#works',
-      },
-      {
-        content: 'Blog',
-        title: 'blog',
-        href: '#blog',
-      },
-      {
-        content: 'Contact',
-        title: 'contact',
-        href: '#contact',
-      },
+      }
     ]
 
     return (

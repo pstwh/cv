@@ -3,23 +3,42 @@ import React, { Component } from 'react'
 export default class Social extends Component {
 
   render() {
+
+    const socials = [
+      {
+        href: "https://www.facebook.com/profile.php?id=100004021432614",
+        icon: "im im-facebook",
+        text: "Facebook"
+      },
+      {
+        href: "https://twitter.com/pstwh",
+        icon: "im im-twitter",
+        text: "Twitter"
+      },
+      {
+        href: "https://www.linkedin.com/in/paulo-alves-246080161",
+        icon: "im im-linkedin",
+        text: "Linkedin"
+      },
+      {
+        href: "https://github.com/pstw",
+        icon: "im im-github",
+        text: "Github"
+      },
+    ]
+
     return (
       <ul class="home-social">
+        {socials.map(social =>
           <li>
-              <a href="#"><i class="im im-facebook" aria-hidden="true"></i><span>Facebook</span></a>
+              <a target="_blank"
+                 href={social.href}>
+                <i class={social.icon}
+                   aria-hidden="true"/>
+                <span>{social.text}</span>
+              </a>
           </li>
-          <li>
-              <a href="#"><i class="im im-twitter" aria-hidden="true"></i><span>Twiiter</span></a>
-          </li>
-          <li>
-              <a href="#"><i class="im im-instagram" aria-hidden="true"></i><span>Instagram</span></a>
-          </li>
-          <li>
-              <a href="#"><i class="im im-behance" aria-hidden="true"></i><span>Behance</span></a>
-          </li>
-          <li>
-              <a href="#"><i class="im im-pinterest" aria-hidden="true"></i><span>Pinterest</span></a>
-          </li>
+        )}
       </ul>
     )
   }

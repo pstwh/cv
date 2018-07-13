@@ -1,7 +1,34 @@
-import React from 'react'
+import React, { Component } from 'react'
 
-export default props => (
-  <footer>
+export default class Footer extends Component {
+
+  render() {
+
+    const socials = [
+      {
+        href: "https://www.facebook.com/profile.php?id=100004021432614",
+        icon: "im im-facebook",
+        text: "Facebook"
+      },
+      {
+        href: "https://twitter.com/pstwh",
+        icon: "im im-twitter",
+        text: "Twitter"
+      },
+      {
+        href: "https://www.linkedin.com/in/paulo-alves-246080161",
+        icon: "im im-linkedin",
+        text: "Linkedin"
+      },
+      {
+        href: "https://github.com/pstw",
+        icon: "im im-github",
+        text: "Github"
+      },
+    ]
+
+    return(
+      <footer>
         <div class="row">
             <div class="col-full">
 
@@ -10,26 +37,14 @@ export default props => (
                 </div>
 
                 <ul class="footer-social">
-                    <li><a href="#0">
-                        <i class="im im-facebook" aria-hidden="true"></i>
-                        <span>Facebook</span>
-                    </a></li>
-                    <li><a href="#0">
-                        <i class="im im-twitter" aria-hidden="true"></i>
-                        <span>Twitter</span>
-                    </a></li>
-                    <li><a href="#0">
-                        <i class="im im-instagram" aria-hidden="true"></i>
-                        <span>Instagram</span>
-                    </a></li>
-                    <li><a href="#0">
-                        <i class="im im-behance" aria-hidden="true"></i>
-                        <span>Behance</span>
-                    </a></li>
-                    <li><a href="#0">
-                        <i class="im im-pinterest" aria-hidden="true"></i>
-                        <span>Pinterest</span>
-                    </a></li>
+                  {socials.map(social =>
+                    <li>
+                      <a href={social.href}>
+                          <i class={social.icon} aria-hidden="true"></i>
+                          <span>{social.text}</span>
+                      </a>
+                    </li>
+                  )}
                 </ul>
 
             </div>
@@ -46,8 +61,8 @@ export default props => (
                 <a class="smoothscroll" title="Back to Top" href="#top"><i class="im im-arrow-up" aria-hidden="true"></i></a>
                 </div>
             </div>
-
         </div>
-
-    </footer>
-)
+      </footer>
+    )
+  }
+}

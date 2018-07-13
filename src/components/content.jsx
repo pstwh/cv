@@ -5,7 +5,7 @@ export default class Content extends Component {
 
   render() {
 
-      let title = "Howdy!"
+      let title = "Olá!"
 
       let content = `
       Lorem ipsum Ut eiusmod ex magna sit dolor esse adipisicing minim ad cupidatat eu veniam nostrud mollit laboris sunt magna velit culpa consectetur nostrud consectetur labore sed do.

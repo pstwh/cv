@@ -6,30 +6,30 @@ export default props => (
 
             <div class="col-block stats__col ">
                 <div class="stats__count">
-                    128
+                    17
                 </div>
-                <h4>Awards Received</h4>
+                <h4>Horas perdidas no Paperspace</h4>
             </div>
             <div class="col-block stats__col">
                 <div class="stats__count">
-                    1500
+                    12
                 </div>
-                <h4>Cups of Coffee</h4>
+                <h4>Modelos Treinados</h4>
             </div>
             <div class="col-block stats__col stats__col--highlight">
                 <div class="stats__upsign">
                     <a href="#"><i class="im im-arrow-up" aria-hidden="true"></i></a>
                 </div>
                 <div class="stats__count">
-                    110
+                    377
                 </div>
-                <h4>Projects Completed</h4>
+                <h4>Copos de café</h4>
             </div>
             <div class="col-block stats__col">
                 <div class="stats__count">
-                    101
+                    17
                 </div>
-                <h4>Happy Clients</h4>
+                <h4>Horas perdidas no Paperspace</h4>
             </div>
 
         </div>

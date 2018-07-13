@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import Social from './social'
 
+import Background from '../images/book1.jpg'
+
 export default class Perfil extends Component {
 
   render() {
@@ -13,8 +15,23 @@ export default class Perfil extends Component {
         `
     }
 
+    let styles = {
+      root: {
+          backgroundImage: `url(${Background}) noRepeat center center fixed`,
+          backgroundSize: 'cover',
+      }
+    }
+
     return (
-      <section id="home" class="s-home page-hero target-section" data-parallax="scroll" data-image-src="images/hero-bg.jpg" data-natural-width="3000" data-natural-height="2000" data-position-y="center">
+
+      <section id="home"
+               class="s-home page-hero target-section"
+               data-parallax="scroll"
+               data-image-src="http://i.imgur.com/JAOkWDxx.jpg"
+               data-natural-width="3000"
+               data-natural-height="2000"
+               data-position-y="center"
+               style={styles.root}>
 
             <div class="overlay"></div>
             <div class="shadow-overlay"></div>

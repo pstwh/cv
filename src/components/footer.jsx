@@ -53,10 +53,6 @@ export default class Footer extends Component {
         <div class="row footer-bottom">
 
             <div class="col-twelve">
-                <div class="copyright">
-                    <span>Based on <a href="https://www.styleshout.com/">Hola</a></span>
-                </div>
-
                 <div class="go-top">
                 <a class="smoothscroll" title="Back to Top" href="#top"><i class="im im-arrow-up" aria-hidden="true"></i></a>
                 </div>

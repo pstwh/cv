@@ -20,6 +20,7 @@ class App extends Component {
         <Menu/>
         <Perfil/>
         <About/>
+        <Works/>
         <Header/>
         <Stats/>
         <Github user="pstwh"/>

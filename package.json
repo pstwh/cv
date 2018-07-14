@@ -4,9 +4,12 @@
   "private": true,
   "dependencies": {
     "github-calendar": "^1.2.1",
+    "jquery-parallax.js": "^1.5.0",
     "modernizr": "^3.6.0",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
+    "react-p5-wrapper": "0.0.4",
+    "react-parallax": "^1.8.0",
     "react-scripts": "1.1.4"
   },
   "scripts": {

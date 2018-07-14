@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
-import Social from './social'
+import P5Wrapper from 'react-p5-wrapper';
 
-import Background from '../images/book1.jpg'
+import Social from './social'
+import Sketch from '../sketchs/flow'
 
 export default class Perfil extends Component {
 
@@ -15,38 +16,20 @@ export default class Perfil extends Component {
         `
     }
 
-    let styles = {
-      root: {
-          backgroundImage: `url(${Background}) noRepeat center center fixed`,
-          backgroundSize: 'cover',
-      }
-    }
 
     return (
 
       <section id="home"
-               class="s-home page-hero target-section"
-               data-parallax="scroll"
-               data-image-src="http://i.imgur.com/JAOkWDxx.jpg"
-               data-natural-width="3000"
-               data-natural-height="2000"
-               data-position-y="center"
-               style={styles.root}>
+               class="s-home page-hero target-section">
 
             <div class="overlay"></div>
             <div class="shadow-overlay"></div>
-
+            <P5Wrapper sketch={Sketch}
+                       style={{zIndex: -10}}/>
             <div class="home-content">
-
                 <div class="row home-content__main">
-
-                    <h3>
-                      {perfil.title}
-                    </h3>
-
-                    <h1>
-                      {perfil.description}
-                    </h1>
+                    <h3>{perfil.title}</h3>
+                    <h1>{perfil.description}</h1>
 
                     <div class="home-content__buttons">
                         <a href="#works" class="smoothscroll btn btn--stroke">
@@ -56,7 +39,6 @@ export default class Perfil extends Component {
                             Sobre Mim
                         </a>
                     </div>
-
                     <div class="home-content__scroll">
                         <a href="#about" class="scroll-link smoothscroll">
                             <span>Conheça-me</span>
@@ -64,11 +46,8 @@ export default class Perfil extends Component {
                     </div>
 
                 </div>
-
             </div>
-
             <Social/>
-
         </section>
     )
   }

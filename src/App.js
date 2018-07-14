@@ -24,6 +24,7 @@ class App extends Component {
         <Header/>
         <Stats/>
         <Github user="pstwh"/>
+        <Contact/>
         <Footer/>
       </div>
     );

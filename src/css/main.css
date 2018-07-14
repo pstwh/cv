@@ -2340,6 +2340,7 @@ html.no-csstransitions .home-content__main {
     vertical-align: top;
     -webkit-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
+    opacity: 0.33
 }
 
 .item-folio__thumb .shadow-overlay {

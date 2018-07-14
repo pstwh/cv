@@ -6,13 +6,13 @@ export default props => (
 
             <div class="col-block stats__col ">
                 <div class="stats__count">
-                    17
+                    5
                 </div>
-                <h4>Horas perdidas no Paperspace</h4>
+                <h4>Participações no Kaggle </h4>
             </div>
             <div class="col-block stats__col">
                 <div class="stats__count">
-                    12
+                    87
                 </div>
                 <h4>Modelos Treinados</h4>
             </div>

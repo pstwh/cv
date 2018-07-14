@@ -8,22 +8,19 @@ export default props => (
 
                 <div class="page-header__info">
                     <div class="page-header__cat">
-                        <a href="#0">Branding</a><a href="#0">Design</a>
+                        <a href="#0">Lorem</a><a href="#0">Design</a>
                     </div>
                     <div class="page-header__date">
-                        Sept 16, 2017
+                        lorem
                     </div>
                 </div>
 
                 <h1 class="page-header__title">
                     <a href="#0" title="">
-                        The 10 Golden Rules of Clean Simple Design.
+                        The Lorem Design.
                     </a>
                 </h1>
                 <p>Pellentesque in ipsum id orci porta dapibus amet dui. Ad id deserunt ratione autem eius et minima ut et. Nihil sed quis velit aut enim aliquam. Quas non ad sint eveniet voluptatem est iure...</p>
-                <p>
-                    <a href="#0" class="btn btn--stroke page-header__btn">Read More</a>
-                </p>
             </article>
         </div>
 

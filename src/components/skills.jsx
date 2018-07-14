@@ -20,12 +20,12 @@ export default class Skills extends Component {
         percentage: "90"
       },
       {
-        name: "Datascience com Python",
+        name: "React e React Native",
         percentage: "85"
       },
       {
-        name: "React e React Native",
-        percentage: "85"
+        name: "Data Science, Machine e Deep Learning",
+        percentage: "80"
       },
       {
         name: "Tensorflow e Keras",

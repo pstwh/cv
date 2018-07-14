@@ -7,10 +7,12 @@ export default props => (
 
         <div class="row narrow section-intro">
             <div class="col-full">
-                <h3>Contact</h3>
-                <h1>Say Hello.</h1>
+                <h3>Contato</h3>
+                <h1>Você pode entrar em contato.</h1>
 
-                <p class="lead">Lorem ipsum Dolor adipisicing nostrud et aute Excepteur amet commodo ea dolore irure esse Duis nulla sint fugiat cillum ullamco proident aliquip quis qui voluptate dolore veniam Ut laborum non est in officia.</p>
+                <p class="lead">Se tiver interesse em discutir sobre inteligência
+                artificial ou problemas de computação no geral, use a ferramenta de contato
+                ou alguma rede social. Será um prazer trocar uma ideia.</p>
             </div>
         </div>
     </section>

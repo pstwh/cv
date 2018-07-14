@@ -4,7 +4,7 @@ export default function sketch (p5) {
   let particles_a = [];
   let particles_b = [];
   let particles_c = [];
-  let nums = 500;
+  let nums = 250;
   let noiseScale = 700;
 
   p5.setup = function(){

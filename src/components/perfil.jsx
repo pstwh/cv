@@ -11,8 +11,8 @@ export default class Perfil extends Component {
     let perfil = {
         title: 'Hello World',
         description: `
-        Eu sou Paulo Alves.
-        Desenvolvedor e sempre buscando inovação.
+        Eu sou Paulo Alves
+        Desenvolvedor apaixonado por inovação.
         `
     }
 
@@ -24,10 +24,12 @@ export default class Perfil extends Component {
 
             <div class="overlay"></div>
             <div class="shadow-overlay"></div>
-            <P5Wrapper sketch={Sketch}
-                       style={{zIndex: -10}}/>
+            <P5Wrapper sketch={Sketch} style={{zIndex: -10}}/>
+
+
             <div class="home-content">
                 <div class="row home-content__main">
+
                     <h3>{perfil.title}</h3>
                     <h1>{perfil.description}</h1>
 

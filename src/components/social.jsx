@@ -21,7 +21,7 @@ export default class Social extends Component {
         text: "Linkedin"
       },
       {
-        href: "https://github.com/pstw",
+        href: "https://github.com/pstwh",
         icon: "im im-github",
         text: "Github"
       },

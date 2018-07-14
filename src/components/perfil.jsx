@@ -24,7 +24,7 @@ export default class Perfil extends Component {
 
             <div class="overlay"></div>
             <div class="shadow-overlay"></div>
-            <P5Wrapper sketch={Sketch} style={{zIndex: -10}}/>
+            
 
 
             <div class="home-content">

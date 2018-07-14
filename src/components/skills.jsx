@@ -60,7 +60,7 @@ export default class Skills extends Component {
           <ul class="skill-bars">
             {skills.map(skill => (
               <li>
-                <div class={"progress percent"+skill.percentage}><span>{skill.percentage}%</span></div>
+                <div class={"progress percent"+skill.percentage}></div>
                 <strong>{skill.name}</strong>
               </li>
             ))}

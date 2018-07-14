@@ -71,11 +71,11 @@ export default class Works extends Component {
     ]
 
     return (
-      <section id="works" class="s-works target-section">
+      <section id="trabalhos" class="s-works target-section">
         <div class="row narrow section-intro has-bottom-sep">
             <div class="col-full">
                 <h3>Projetos</h3>
-                <h1>Alguns projetos pessoas</h1>
+                <h1>Alguns projetos pessoais</h1>
 
                 <p class="lead">Aqui constam alguns dos últimos projetos pessoais.
                 Projetos desenvolvidos em empresas não podem ser listados por se tratar de sistemas em produção. </p>

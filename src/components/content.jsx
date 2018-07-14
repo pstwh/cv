@@ -11,7 +11,7 @@ export default class Content extends Component {
               Trabalhar com Machine Learning e Deep Learning não é tudo.
               Não tenho subárea exclusiva, linguagem favorita ou amarras
               com linguagens e frameworks. <br/><br/>
-              Gosto muito de trabalhar com linux (principalmente archlinux),
+              Gosto muito de trabalhar com linux (minha distro favorita é a arch linux),
               porém atualmente sou usuário de macOS no ambiente pessoal e linux/windows no profissional. <br/><br/>
               A lista de tecnologias a direita pode parecer um pouco exagerada ou explicita demais,
               porém de fato são tecnologias que estou focando no momento e tentando integrar

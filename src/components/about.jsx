@@ -10,7 +10,7 @@ export default class About extends Component {
 
   render() {
     return(
-      <section id="about" class="s-about target-section">
+      <section id="sobre" class="s-about target-section">
         <div class="row narrow section-intro has-bottom-sep">
           <Block col="full" textAlign="center">
               <img class="img-about"/>
@@ -40,7 +40,7 @@ export default class About extends Component {
             </Block>
         </div>
 
-        <div class="row about-content about-content--timeline">
+        <div id="historico" class="row about-content about-content--timeline">
 
             <Block col="full" textAlign="center">
                 <h3>Histórico e Experiência</h3>

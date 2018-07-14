@@ -1634,7 +1634,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  * ------------------------------------------------------------------- */
 
 .img-about {
-  background-image: url('https://i.imgur.com/KTGdaS3.jpg');
+  background-image: url('https://i.imgur.com/LUwf7PG.jpg');
   background-size:     cover;
   background-repeat:   no-repeat;
   background-position: center center;
@@ -1654,7 +1654,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
   z-index: 10;
-  background-image: url('https://i.imgur.com/rir58U3.jpg');
+  background-image: url('https://i.imgur.com/gP9Jfda.jpg');
 }
 
 
@@ -2332,6 +2332,8 @@ html.no-csstransitions .home-content__main {
 .item-folio {
     position: relative;
     overflow: hidden;
+    height: 200px;
+    background: black;
 }
 
 .item-folio__thumb img {

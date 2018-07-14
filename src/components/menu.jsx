@@ -13,18 +13,18 @@ export default class Menu extends Component {
       },
       {
         content: 'Sobre',
-        title: 'about',
-        href: '#about',
+        title: 'sobre',
+        href: '#sobre',
       },
       {
         content: 'Histórico e Experiência',
-        title: 'about',
-        href: '#about',
+        title: 'historico',
+        href: '#historico',
       },
       {
         content: 'Alguns Trabalhos',
-        title: 'works',
-        href: '#works',
+        title: 'trabalhos',
+        href: '#trabalhos',
       }
     ]
 

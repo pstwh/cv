@@ -26,7 +26,7 @@ export default class Content extends Component {
               vejo o máximo de material possível para vencê-las (como os lendário cursos da deeplearning.ai
               e HSE). <br/><br/>
 
-              Como estou próximo do término da graduação, já existem planos para pós-graduação na área de
+              Nesse meu término de graduação estive trabalhando bastante com modelos de sequência (Redes Recorrentes, Modelos de Linguagem, Seq2seq, etc...). Já existem planos para pós-graduação na área de
               Inteligência Artificial.
             </p>
         </Block>

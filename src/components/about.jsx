@@ -50,7 +50,7 @@ export default class About extends Component {
                    tab="full"
                    align="right">
                 <Timeline>
-                  <Timeblock period="FEVEREIRO 2017 - PRESENT"
+                  <Timeblock period="FEVEREIRO 2017 - PRESENTE"
                              place="Núcleo de Tecnologia da Informação"
                              work="Estágio/Desenvolvedor Fullstack">
                     <p>

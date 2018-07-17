@@ -4,7 +4,7 @@ export default function sketch (p5) {
   let particles_a = [];
   let particles_b = [];
   let particles_c = [];
-  let nums = 500;
+  let nums = 250;
   let noiseScale = 700;
 
   p5.setup = function(){
@@ -39,10 +39,6 @@ export default function sketch (p5) {
   		particles_c[i].display(radius);
   		particles_c[i].checkEdge();
 	  }
-
-    setTimeout(() => {
-      p5.noLoop();
-    }, 15000)
   }
 
   function Particle(x, y){

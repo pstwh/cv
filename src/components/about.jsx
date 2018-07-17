@@ -18,7 +18,7 @@ export default class About extends Component {
               <h1>Um pouco sobre mim</h1>
               <p class="lead">Sou Paulo Alves, tenho 22 anos e considero a
               inovação o fator crucial para o sucesso.
-              Sou <b>fascinado</b> em Machine Learning e Deep Learning.
+              Sou fascinado em Machine Learning e Deep Learning.
               <br/>
               Gosto bastante de realizar projetos pessoais, então também sou desenvolvedor fullstack web, desktop e mobile. Buscando
               sempre integrar tudo.</p>
@@ -33,10 +33,10 @@ export default class About extends Component {
         <div class="row about-content about-content--buttons">
 
             <Block col="six" tab="full" align="left">
-                <a href="#0" class="btn btn--primary full-width">Veja meu Currículo</a>
+                <a target="_blank "href={require('../cv.pdf')} class="btn btn--primary full-width">Veja meu Currículo</a>
             </Block>
             <Block col="six" tab="full" align="right">
-                <a href="#0" class="btn full-width">Contato</a>
+
             </Block>
         </div>
 

@@ -34,15 +34,15 @@ export default class Perfil extends Component {
                     <h1>{perfil.description}</h1>
 
                     <div class="home-content__buttons">
-                        <a href="#works" class="smoothscroll btn btn--stroke">
+                        <a href="#trabalhos" class="smoothscroll btn btn--stroke">
                             Últimos Projetos
                         </a>
-                        <a href="#about" class="smoothscroll btn btn--stroke">
+                        <a href="#sobre" class="smoothscroll btn btn--stroke">
                             Sobre Mim
                         </a>
                     </div>
                     <div class="home-content__scroll">
-                        <a href="#about" class="scroll-link smoothscroll">
+                        <a href="#sobre" class="scroll-link smoothscroll">
                             <span>Conheça-me</span>
                         </a>
                     </div>

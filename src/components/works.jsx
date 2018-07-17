@@ -9,8 +9,8 @@ export default class Works extends Component {
         image: require('../images/1.gif'),
         title: "Acadêmico Online Mobile",
         subtitle: "Desenvolvimento Android, com Scrapper Web do Sistema Oficial",
-        href: "https://www.behance.net/",
-        text: "https://github.com/pstwh/uepgacadonline-android"
+        href: "https://github.com/pstwh/uepgacadonline-android",
+        text: ""
       },
       {
         image: require('../images/2.gif'),

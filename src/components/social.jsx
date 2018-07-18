@@ -16,7 +16,7 @@ export default class Social extends Component {
         text: "Twitter"
       },
       {
-        href: "https://www.linkedin.com/in/paulo-alves-246080161",
+        href: "https://www.linkedin.com/in/pauloalvesjr",
         icon: "im im-linkedin",
         text: "Linkedin"
       },

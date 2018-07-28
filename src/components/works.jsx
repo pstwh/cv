@@ -6,6 +6,27 @@ export default class Works extends Component {
   render() {
     const jobs = [
       {
+        image: "https://i.imgur.com/sYySRhS.png",
+        title: "Identificador de pessoas através da face",
+        subtitle: "Utilizando deeplearning para identificação de pessoas",
+        href: "https://github.com/unlabeledorganization",
+        text: ""
+      },
+      {
+        image: "https://github.com/pstwh/web-fruit-classifier-tensorflowjs/raw/master/samples/2.png",
+        title: "Classificador de frutas web/mobile",
+        subtitle: "Identificação de frutas utilizando deeplearning. Problema teste.",
+        href: "https://github.com/pstwh/web-fruit-classifier-tensorflowjs",
+        text: ""
+      },
+      {
+        image: "https://github.com/pstwh/watson-age-estimator/raw/master/samples/1.gif",
+        title: "Identificador de faces e idade de pessoas",
+        subtitle: "Identificador de faces e idade de pessoas utilizando API externa.",
+        href: "https://agestimator.herokuapp.com/",
+        text: ""
+      },
+      {
         image: require('../images/1.gif'),
         title: "Acadêmico Online Mobile",
         subtitle: "Desenvolvimento Android, com Scrapper Web do Sistema Oficial",
